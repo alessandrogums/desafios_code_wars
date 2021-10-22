@@ -1,8 +1,16 @@
-# Desafios Code Wars
+# Desafios Code Wars(TRADUZIDO para pt-br)
 ## Desafios do site https://www.codewars.com, utilizando a linguagem python para resolvê-los
-### Desafio número 1(TRADUZIDO para pt-br):
+### Desafio número 1:
 ### Conclua o método / função para que ele converta palavras delimitadas por traço / sublinhado em caixa de camelo. A primeira palavra na saída deve ser maiúscula apenas se a palavra original estiver em maiúscula (conhecido como Upper Camel Case, também frequentemente referido como Pascal case).
 
 #### Exemplos
 #### "the-stealth-warrior" é convertido em "the-stealthWarrior"
 #### "The_Stealth_Warrior" é convertido em "TheStealthWarrior"
+
+### Desafio número 2:
+### Escreva uma função que aceite uma matriz de 10 inteiros (entre 0 e 9), que retorne uma string desses números na forma de um número de telefone.
+
+#### Exemplos 
+####create_phone_number ([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => retorna "(123) 456-7890"
+####O formato retornado deve estar correto para completar este desafio.
+####Não se esqueça do espaço após os parênteses de fechamento!
