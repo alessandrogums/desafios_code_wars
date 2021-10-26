@@ -11,14 +11,14 @@
 ### Escreva uma função que aceite uma matriz de 10 inteiros (entre 0 e 9), que retorne uma string desses números na forma de um número de telefone.
 
 #### Exemplos 
-####create_phone_number ([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => retorna "(123) 456-7890"
-####O formato retornado deve estar correto para completar este desafio.
-####Não se esqueça do espaço após os parênteses de fechamento!
+#### create_phone_number ([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => retorna "(123) 456-7890"
+#### O formato retornado deve estar correto para completar este desafio.
+#### Não se esqueça do espaço após os parênteses de fechamento!
 
 ### Desafio número 3:
-###O objetivo deste desafio é implementar uma função de diferença, que subtrai uma lista da outra e retorna o resultado.
+### O objetivo deste desafio é implementar uma função de diferença, que subtrai uma lista da outra e retorna o resultado.
 
-Deve remover todos os valores da lista a, que estão presentes na lista b mantendo sua ordem.
+### Deve remover todos os valores da lista a, que estão presentes na lista b mantendo sua ordem.
 
 #### Exemplos:array_diff ([1,2], [1]) == [2]
  #### Se um valor estiver presente em b, todas as suas ocorrências devem ser removidas do outro:
