@@ -24,3 +24,15 @@
  #### Se um valor estiver presente em b, todas as suas ocorrências devem ser removidas do outro:
 
  #### array_diff ([1,2,2,2,3], [2]) == [1,3]
+### Desafio número 4:
+###Escreva uma função que leve uma sequência de parênteses e determine se a ordem dos parênteses é válida. A função deve retornar se a sequência for válida e se for inválida true/false,respectivamente.
+
+####Exemplos
+####"()"              =>  true
+####")(()))"          =>  false
+####"("               =>  false
+####"(())((()())())"  =>  true
+####Restrições
+####0 <= input.length <= 100
+
+####Juntamente com a abertura () e o fechamento () parênteses, a entrada pode conter quaisquer caracteres ASCII válidos. Além disso, a sequência de entrada pode estar vazia e/ou não conter nenhum parêntese. Não trate outras formas de parênteses como parênteses (por exemplo, , .()[]{}<>
