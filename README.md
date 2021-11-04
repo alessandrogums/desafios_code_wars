@@ -37,7 +37,7 @@
 
 #### Juntamente com a abertura () e o fechamento () parênteses, a entrada pode conter quaisquer caracteres ASCII válidos. Além disso, a sequência de entrada pode estar vazia #### e/ou não conter nenhum parêntese. Não trate outras formas de parênteses como parênteses (por exemplo, , .()[]{}<>)
 
-
+### Desafio número 5:
 ### Escreva uma função para "caso estranho"  que aceita uma string e retorna a mesma string com todos os caracteres pares indexados em cada palavra maiúscula 
 ### e todos os caracteres ímpares indexados em cada palavra minúscula. A indexação que acabamos de explicar é baseada em zero, portanto, o índice zero-ésimo é par, portanto, esse caractere deve ser maiúsculo e você precisa começar de novo para cada palavra.
 ### A string passada consistirá apenas em caracteres alfabéticos e espaços (''). Os espaços só estarão presentes se houver várias palavras. As palavras serão separadas por um ### único espaço ('').
