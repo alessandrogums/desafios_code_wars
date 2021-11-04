@@ -44,5 +44,5 @@
 
 #### exemplos:
 #### Exemplos:
-#### to_weird_case ('String'); # => retorna 'StRiNg'
-#### to_weird_case ('Weird string case') # => retorna 'WeIrD StRiNg CaSe'
+#### to_weird_case ('String');  => retorna 'StRiNg'
+#### to_weird_case ('Weird string case')  => retorna 'WeIrD StRiNg CaSe'
