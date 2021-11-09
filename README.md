@@ -46,3 +46,17 @@
 #### Exemplos:
 #### to_weird_case ('String');  => retorna 'StRiNg'
 #### to_weird_case ('Weird string case')  => retorna 'WeIrD StRiNg CaSe'
+
+### Desafio número 6:
+### Jaden Smith, filho de Will Smith, é a estrela de filmes como The Karate Kid (2010) e After Earth (2013). Jaden também é conhecido por algumas de suas filosofias que ele 
+### entrega via Twitter. Ao escrever no Twitter, ele é conhecido por quase sempre capitalizar cada palavra. Para simplificar, você terá que capitalizar cada palavra, confira 
+### como as contrações devem ser no exemplo abaixo.
+
+### Sua tarefa é converter cordas em como elas seriam escritas por Jaden Smith. As cordas são citações reais de Jaden Smith, mas não são capitalizadas da mesma forma que ele 
+### originalmente as digitou.
+
+#### Exemplos: 
+#### Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+#### Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+
+
