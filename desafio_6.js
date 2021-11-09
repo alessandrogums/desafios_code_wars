@@ -1,4 +1,4 @@
-String.prototype.toJadencase=function(){
+function toJadenCase(string){
     let i=0
     let ini=0
     let string_final=''
@@ -16,6 +16,6 @@ String.prototype.toJadencase=function(){
     }
     i++
     }
-    
+    return string_final 
 } ;
 
