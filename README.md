@@ -61,7 +61,7 @@
 
 ### Desafio número 7:
 ### Raiz digital é a soma recursiva de todos os dígitos em um número.
-###Dado o valor, pegue a soma dos dígitos. Se esse valor tiver mais de um dígito, continue reduzindo desta forma até que um número de um dígito seja produzido. A entrada será um inteiro não negativo.
+### Dado o valor, pegue a soma dos dígitos. Se esse valor tiver mais de um dígito, continue reduzindo desta forma até que um número de um dígito seja produzido. A entrada será um inteiro não negativo.
 
 #### Exemplos:
 #### 16  -->  1 + 6 = 7
