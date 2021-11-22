@@ -59,4 +59,12 @@
 #### Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 #### Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
+### Desafio número 7:
+### Raiz digital é a soma recursiva de todos os dígitos em um número.
+###Dado o valor, pegue a soma dos dígitos. Se esse valor tiver mais de um dígito, continue reduzindo desta forma até que um número de um dígito seja produzido. A entrada será um inteiro não negativo.
 
+#### Exemplos:
+#### 16  -->  1 + 6 = 7
+#### 942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+#### 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+#### 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
