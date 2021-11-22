@@ -73,4 +73,5 @@
 ### Escreva um algoritmo que pegue uma matriz e mova todos os zeros até o fim, preservando a ordem dos outros elementos.
 
 #### Exemplos:
-#### move_zeros([1, 0, 1, 2, 0, 1, 3]) #### returns [1, 1, 2, 1, 3, 0, 0]
+#### move_zeros([1, 0, 1, 2, 0, 1, 3]) 
+#### returns [1, 1, 2, 1, 3, 0, 0]
