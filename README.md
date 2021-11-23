@@ -98,7 +98,7 @@
 ### Dado um inteiro positivo n escrito como abcd ... (a, b, c, d... sendo dígitos) e um inteiro positivo p
 
 ### queremos encontrar um inteiro positivo k, se ele existe, como a soma dos dígitos de n levados aos sucessivos poderes de p é igual a k * n.
-Em outras palavras:
+### Em outras palavras:
 
 ### Existe um inteiro k tais como : (a ^ p + b ^ (p+1) + c ^(p+2) + d ^ (p+3) + ...) = n * k
 
