@@ -133,3 +133,10 @@
 ### Seu código deve retornar verdadeiro ou falso (não 'verdadeiro' e 'falso') dependendo se o número dado é um número narcisista na base 10. 
 
 ### Não é necessário verificar erros para sequências de texto ou outras entradas inválidas, apenas os inteiros positivos não-zero válidos serão passados para a função.
+
+### Desafio número 13:
+### Um isograma é uma palavra que não tem letras repetidas, consecutivas ou não consecutivas. Implemente uma função que determine se uma sequência que contém apenas letras é um ### isograma. Suponha que a corda vazia seja um isograma. Ignore o caso da carta.
+#### Exemplos:
+#### "Dermatoglyphics" --> true
+#### "aba" --> false
+#### "moOse" --> false (ignore letter casing)
