@@ -3,9 +3,9 @@ function toJadenCase(string){
     let ini=0
     let string_final=''
     while  (i<string.length){
-    if (i==0){
-        ini=0
-        string_final+=string.toUpperCase()[ini]
+        if (i==0){
+            ini=0
+            string_final+=string.toUpperCase()[ini]
     }else if(string[i]===' '){
         ini=i+1
         string_final+=' '
