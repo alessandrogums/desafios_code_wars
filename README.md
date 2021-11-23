@@ -148,7 +148,7 @@
 
 
 ### Desafio número 15:
-### Uma Progressão Aritmética é definida como aquela em que há uma diferença constante entre os termos consecutivos de uma determinada série de números. Você é fornecido com ### ### elementos consecutivos de uma Progressão Aritmética. No entanto, há um problema: exatamente um termo da série original está faltando do conjunto de números que foram dados a ### você. O resto da série dada é o mesmo que o AP original.
+### Uma Progressão Aritmética é definida como aquela em que há uma diferença constante entre os termos consecutivos de uma determinada série de números. Você é fornecido com elementos consecutivos de uma Progressão Aritmética. No entanto, há um problema: exatamente um termo da série original está faltando do conjunto de números que foram dados você. O resto da série dada é o mesmo que o AP original.
 
 ### Você tem que escrever uma função que recebe uma lista, o tamanho da lista sempre será de pelo menos 3 números. O termo perdido nunca será o primeiro ou o último.
 
