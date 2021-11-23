@@ -140,3 +140,8 @@
 #### "Dermatoglyphics" --> true
 #### "aba" --> false
 #### "moOse" --> false (ignore letter casing)
+
+### Desafio número 14:
+### Um pangrama é uma frase que contém cada letra do alfabeto pelo menos uma vez. Por exemplo, a frase "The quick brown fox jumps over the lazy dog" é um pangrama, porque ### usa as letras A-Z pelo menos uma vez (caso é irrelevante).
+
+### Dado uma corda, detecte se é ou não um pangrama. Devolva True se for, falso se não. Ignore números e pontuação.
