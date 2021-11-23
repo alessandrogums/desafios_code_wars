@@ -145,3 +145,15 @@
 ### Um pangrama é uma frase que contém cada letra do alfabeto pelo menos uma vez. Por exemplo, a frase "The quick brown fox jumps over the lazy dog" é um pangrama, porque ### usa as letras A-Z pelo menos uma vez (caso é irrelevante).
 
 ### Dado uma corda, detecte se é ou não um pangrama. Devolva True se for, falso se não. Ignore números e pontuação.
+
+
+### Desafio número 15:
+### Uma Progressão Aritmética é definida como aquela em que há uma diferença constante entre os termos consecutivos de uma determinada série de números. Você é fornecido com ### ### elementos consecutivos de uma Progressão Aritmética. No entanto, há um problema: exatamente um termo da série original está faltando do conjunto de números que foram dados a ### você. O resto da série dada é o mesmo que o AP original.
+
+### Você tem que escrever uma função que recebe uma lista, o tamanho da lista sempre será de pelo menos 3 números. O termo perdido nunca será o primeiro ou o último.
+
+### Exemplo
+### find_missing([1, 3, 5, 9, 11]) == 7
+### PS: Esta é uma questão amostra do desafio do engenheiro do Facebook na rua de entrevistas. Achei muito divertido resolver no papel usando matemática, derivar o algo dessa forma. Divertir-se!
+
+
