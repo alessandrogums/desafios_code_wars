@@ -116,3 +116,20 @@
 
 #### Exemplos:
 #### twoSum [1, 2, 3] 4 === (0, 2)
+
+
+
+#### Desafio número 12:
+### Um número narcisista é um número positivo que é a soma de seus próprios dígitos, cada um elevado ao poder do número de dígitos em uma determinada base. Neste Kata, vamos nos restringir ao decimal (base 10).
+
+### Por exemplo, pegue 153 (3 dígitos), que é narcises:
+
+ ####  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+#### e 1652 (4 dígitos), o que não é:
+
+#### 1^4 + 6^4 + 5^4 + 2^4 = 1 + 1296 + 625 + 16 = 1938
+### O Desafio:
+
+### Seu código deve retornar verdadeiro ou falso (não 'verdadeiro' e 'falso') dependendo se o número dado é um número narcisista na base 10. 
+
+### Não é necessário verificar erros para sequências de texto ou outras entradas inválidas, apenas os inteiros positivos não-zero válidos serão passados para a função.
