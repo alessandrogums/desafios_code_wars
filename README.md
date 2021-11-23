@@ -119,7 +119,7 @@
 
 
 
-#### Desafio número 12:
+### Desafio número 12:
 ### Um número narcisista é um número positivo que é a soma de seus próprios dígitos, cada um elevado ao poder do número de dígitos em uma determinada base. Neste Kata, vamos nos restringir ao decimal (base 10).
 
 ### Por exemplo, pegue 153 (3 dígitos), que é narcises:
