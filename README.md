@@ -113,3 +113,6 @@ Em outras palavras:
 ### Para efeitos deste kata, alguns testes podem ter múltiplas respostas; quaisquer soluções válidas serão aceitas.
 
 ### A entrada será sempre válida (os números serão um conjunto de comprimento 2 ou superior, e todos os itens serão números; o alvo sempre será a soma de dois itens diferentes dessa matriz).
+
+#### Exemplos:
+#### twoSum [1, 2, 3] 4 === (0, 2)
