@@ -75,3 +75,14 @@
 #### Exemplos:
 #### move_zeros([1, 0, 1, 2, 0, 1, 3]) 
 #### returns [1, 1, 2, 1, 3, 0, 0]
+
+
+### Desafio número 9:
+### Escreva uma função nomeada que pegue uma entrada de string e retorne o primeiro caractere que não é repetido em nenhum lugar da string.first_non_repeating_letter
+
+### Por exemplo, se dada a entrada, a função deve retornar, uma vez que a letra não ocorre apenas uma vez na sequência, e ocorre primeiro na sequência.'stress''t'
+
+### Como um desafio adicional, letras maiúsculas e minúsculas são consideradas o mesmo caractere,mas a função deve retornar o caso correto para a letra inicial. Por exemplo, a entrada deve retornar .'sTreSS''T'
+
+### Se uma sequência contiver todos os caracteres repetitivos,ela deve retornar uma sequência vazia () ou -- ver testes de amostra.""None
+
