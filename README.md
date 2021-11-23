@@ -86,3 +86,22 @@
 
 ### Se uma sequência contiver todos os caracteres repetitivos,ela deve retornar uma sequência vazia () ou -- ver testes de amostra.""None
 
+### Desafio número 10:
+### Alguns números têm propriedades engraçadas. Por exemplo:
+
+#### 89 --> 8¹ + 9² = 89 * 1
+
+#### 695 --> 6² + 9³ + 50= 1390 = 695 * 2
+
+#### 46288 --> 4³ + 60+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51
+
+### Dado um inteiro positivo n escrito como abcd ... (a, b, c, d... sendo dígitos) e um inteiro positivo p
+
+### queremos encontrar um inteiro positivo k, se ele existe, como a soma dos dígitos de n levados aos sucessivos poderes de p é igual a k * n.
+Em outras palavras:
+
+### Existe um inteiro k tais como : (a ^ p + b ^ (p+1) + c ^(p+2) + d ^ (p+3) + ...) = n * k
+
+### Se for o caso, retornaremos k, se não voltarmos -1.
+
+##### Nota: n e p sempre serão dados como inteiros estritamente positivos.
