@@ -105,3 +105,11 @@ Em outras palavras:
 ### Se for o caso, retornaremos k, se não voltarmos -1.
 
 ##### Nota: n e p sempre serão dados como inteiros estritamente positivos.
+
+
+### Desafio número 11:
+### Escreva uma função que leve uma matriz de números (inteiros para os testes) e um número de destino. Ele deve encontrar dois itens diferentes na matriz que, quando ### adicionados juntos, dão o valor de destino. Os índices desses itens devem então ser devolvidos em uma tupla como assim: .(index1, index2)
+
+### Para efeitos deste kata, alguns testes podem ter múltiplas respostas; quaisquer soluções válidas serão aceitas.
+
+### A entrada será sempre válida (os números serão um conjunto de comprimento 2 ou superior, e todos os itens serão números; o alvo sempre será a soma de dois itens diferentes dessa matriz).
