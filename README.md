@@ -162,3 +162,7 @@
 ### Você poderia dar a soma dos perímetros de todos os quadrados em um retângulo quando há n + 1 quadrados descartados da mesma forma que no desenho:
 ![image](https://user-images.githubusercontent.com/90655009/143148092-45fd474c-26e1-4b42-b6d3-96af00d14f75.png)
 
+### O perímetro de função tem para parâmetro n onde n + 1 é o número de quadrados (eles são numerados de 0 a n) e retorna o perímetro total de todas as praças.
+#### Exemplos:
+#### perimeter(5)  should return 80
+#### perimeter(7)  should return 216
