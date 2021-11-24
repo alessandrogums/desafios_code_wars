@@ -156,4 +156,9 @@
 ### find_missing([1, 3, 5, 9, 11]) == 7
 ### PS: Esta é uma questão amostra do desafio do engenheiro do Facebook na rua de entrevistas. Achei muito divertido resolver no papel usando matemática, derivar o algo dessa forma. Divertir-se!
 
+### Desafio número 16:
+### O desenho mostra 6 quadrados dos quais têm um comprimento de 1, 1, 2, 3, 5, 8. É fácil ver que a soma dos perímetros desses quadrados é: 4 * (1 + 1 + 2 + 3 + 5 + 8) = 4 * 20 = 80
+
+### Você poderia dar a soma dos perímetros de todos os quadrados em um retângulo quando há n + 1 quadrados descartados da mesma forma que no desenho:
+![image](https://user-images.githubusercontent.com/90655009/143148092-45fd474c-26e1-4b42-b6d3-96af00d14f75.png)
 
