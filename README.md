@@ -166,3 +166,23 @@
 #### Exemplos:
 #### perimeter(5)  should return 80
 #### perimeter(7)  should return 216
+
+### Desafio número 17:
+### Para este exercício você estará fortalecendo seu domínio page-fu. Você completará a classe PaginationHelper, que é uma classe de utilidade útil para consultar informações de paginação relacionadas a um array.
+
+### A classe foi projetada para receber uma variedade de valores e um inteiro indicando quantos itens serão permitidos por cada página. Os tipos de valores contidos no conjunto de coleta/matriz não são relevantes.
+
+### A seguir, alguns exemplos de como esta classe é usada:
+
+#### helper = PaginationHelper(['a','b','c','d','e','f'], 4)
+#### helper.page_count() # should == 2
+#### helper.item_count() # should == 6
+#### helper.page_item_count(0)  # should == 4
+#### helper.page_item_count(1) # last page - should == 2
+#### helper.page_item_count(2) # should == -1 since the page is invalid
+
+#### page_index takes an item index and returns the page that it belongs on
+#### helper.page_index(5) # should == 1 (zero based index)
+#### helper.page_index(2) # should == 0
+#### helper.page_index(20) # should == -1
+#### helper.page_index(-10) # should == -1 because negative indexes are invalid
