@@ -18,7 +18,7 @@ class Sudoku:
                     return False 
             lista.clear()
             col+=1
-    return True 
+        return True 
   
     def avaliar_linha(self):
         for lin in self.matriz:
