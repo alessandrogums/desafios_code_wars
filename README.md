@@ -186,3 +186,37 @@
 #### helper.page_index(2) # should == 0
 #### helper.page_index(20) # should == -1
 #### helper.page_index(-10) # should == -1 because negative indexes are invalid
+
+
+### Desafio número 18:
+### Sudoku é um jogo jogado em um grid 9x9. O objetivo do jogo é encher todas as células da grade com dígitos de 1 a 9, de modo que cada coluna, cada linha, e cada uma das nove sub-grades 3x3 (também conhecidas como blocos) contenham todos os dígitos de 1 a 9.
+### (Mais informações em: http://en.wikipedia.org/wiki/Sudoku)
+
+### Validador de soluções Sudoku
+### Escreva uma função // que aceite uma matriz 2D representando uma placa Sudoku e retorne verdadeira se for uma solução válida ou falsa de outra forma. As células da placa sudoku também podem conter 0's, o que representará células vazias. Placas contendo um ou mais zeros são consideradas soluções inválidas.validSolutionValidateSolutionvalid_solution()
+
+### A placa é sempre 9 células por 9 células, e cada célula contém apenas inteiros de 0 a 9.
+
+#### Exemplos
+#### validSolution([
+  [5, 3, 4, 6, 7, 8, 9, 1, 2],
+  [6, 7, 2, 1, 9, 5, 3, 4, 8],
+  [1, 9, 8, 3, 4, 2, 5, 6, 7],
+  [8, 5, 9, 7, 6, 1, 4, 2, 3],
+  [4, 2, 6, 8, 5, 3, 7, 9, 1],
+  [7, 1, 3, 9, 2, 4, 8, 5, 6],
+  [9, 6, 1, 5, 3, 7, 2, 8, 4],
+  [2, 8, 7, 4, 1, 9, 6, 3, 5],
+  [3, 4, 5, 2, 8, 6, 1, 7, 9]
+]); // => true
+#### validSolution([
+  [5, 3, 4, 6, 7, 8, 9, 1, 2], 
+  [6, 7, 2, 1, 9, 0, 3, 4, 8],
+  [1, 0, 0, 3, 4, 2, 5, 6, 0],
+  [8, 5, 9, 7, 6, 1, 0, 2, 0],
+  [4, 2, 6, 8, 5, 3, 7, 9, 1],
+  [7, 1, 3, 9, 2, 4, 8, 5, 6],
+  [9, 0, 1, 5, 3, 7, 2, 1, 4],
+  [2, 8, 7, 4, 1, 9, 6, 3, 5],
+  [3, 0, 0, 4, 8, 1, 1, 7, 9]
+]); // => false
