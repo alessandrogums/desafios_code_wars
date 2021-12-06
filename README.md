@@ -236,3 +236,19 @@
 #### O número máximo, que deve ser suportado é de 1 milhão (inclusive)
 #### O "e" em por exemplo, "cento e vinte e quatro" é opcional, em alguns casos está presente e em outros não é
 #### Todos os números testados são válidos, você não precisa validá-los
+
+
+### Desafio número 20:
+### Você tem que dar o número de diferentes triângulos inteiros com um ângulo de 120 graus que os perímetros estão abaixo ou igual a um determinado valor. Cada lado de um triângulo inteiro é um valor inteiro.
+
+### give_triang(max. perimeter) --------> number of integer triangles,
+### com os lados a, b e c inteiros de tal forma que:
+
+### a + b + c <= perímetro máximo.
+
+#### Veja alguns dos seguintes casos
+
+#### give_triang(5) -----> 0 # No Integer triangles with perimeter under or equal five
+#### give_triang(15) ----> 1 # One integer triangle of (120 degrees). It's (3, 5, 7)
+#### give_triang(30) ----> 3 # Three triangles: (3, 5, 7), (6, 10, 14) and (7, 8, 13)
+#### give_triang(50) ----> 5 # (3, 5, 7), (5, 16, 19), (6, 10, 14), (7, 8, 13) and (9, 15, 21) are the triangles with perim under or equal 50.
