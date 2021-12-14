@@ -252,3 +252,26 @@
 #### give_triang(15) ----> 1 # One integer triangle of (120 degrees). It's (3, 5, 7)
 #### give_triang(30) ----> 3 # Three triangles: (3, 5, 7), (6, 10, 14) and (7, 8, 13)
 #### give_triang(50) ----> 5 # (3, 5, 7), (5, 16, 19), (6, 10, 14), (7, 8, 13) and (9, 15, 21) are the triangles with perim under or equal 50.
+
+### Desafio número 21:
+### suponha que você tenha 4 números: e 3 strings compostas com eles:'0', '9', '6', '4'
+
+### s1 = "6900690040"
+### s2 = "4690606946"
+### s3 = "9990494604"
+### Compare e veja quantas posições elas têm em comum: no índice 3, no índice 4, no índice 8 ou seja, 3 posições comuns de dez.s1s2064
+
+### Compare e veja quantas posições elas têm em comum: no índice 1, no índice 3, no índice 5 ou seja, 3 posições comuns de dez.s1s3909
+
+### Compare e . Encontramos 2 posições comuns em dez.s2s3
+
+### Então, para as 3 cordas temos 8 posições comuns de 30 ou seja, 0,2666... ou 26.666...%
+
+### Dado substrings (n >= 2) em uma string nossa função calculará a porcentagem média de posições que são as mesmas entre os conjuntos de substrings tomados entre os substrings dado. Pode acontecer que alguns substrings são duplicados, mas como suas fileiras não são as mesmas em serem consideradas substrings diferentes.nspos_average(n * (n-1)) / 2ns
+
+### A função retorna a porcentagem formatada como um flutuador com 10 decimais, mas o resultado é testado em 1e.-9 (ver função assertFuzzy nos testes).
+
+#### Exemplo:
+#### Dado string s = "444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694, 666094, 606490" compondo um conjunto de n = 10 substrings (daí 45 combinações), retorna .pos_average29.2592592593
+
+#### Em um conjunto, os substrings terão o mesmo comprimento (> 0 ).n
