@@ -275,3 +275,23 @@
 #### Dado string s = "444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694, 666094, 606490" compondo um conjunto de n = 10 substrings (daí 45 combinações), retorna .pos_average29.2592592593
 
 #### Em um conjunto, os substrings terão o mesmo comprimento (> 0 ).n
+
+### Desafio número 22:
+### Complete a solução para que ela tire todo o texto que segue qualquer um conjunto de marcadores de comentários passados. Qualquer espaço branco no final da linha também deve ser retirado.
+
+#### Exemplo:
+
+#### Dada uma sequência de entrada de:
+
+#### apples, pears # and bananas
+grapes
+bananas !apples
+A saída esperada seria:
+
+#### apples, pears
+grapes
+bananas
+O código seria chamado assim:
+
+##### result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
+##### result should == "apples, pears\ngrapes\nbananas"
