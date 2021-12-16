@@ -291,7 +291,8 @@ A saída esperada seria:
 #### apples, pears
 grapes
 bananas
-O código seria chamado assim:
+
+#### O código seria chamado assim:
 
 ##### result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
 ##### result should == "apples, pears\ngrapes\nbananas"
