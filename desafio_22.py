@@ -16,7 +16,7 @@ def solution(string,marcadores):
             else:
                 return string_final
     return string_final
-#outra solução mais extensa que fiz, porém com passos mais diretos, utilizando a lógica das posições finais para saber como ficará o final da string.
+#outra solução mais extensa que fiz, porém com passos mais diretos, utilizando a lógica das posições finais para saber como ficará o final da string, sem usar o comando strip.
 
 def solution(string,marcadores):
     string_final=''
