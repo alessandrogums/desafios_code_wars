@@ -1,4 +1,4 @@
-def construir_possibilidades(numero):
+def get_pins(numero):
     tot_fin=[]
     for valor in numero:
         valor=int(valor)
