@@ -296,3 +296,28 @@ bananas
 
 ##### result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
 ##### result should == "apples, pears\ngrapes\nbananas"
+
+
+### Desafio número 23:
+### Certo, detetive, um de nossos colegas observou com sucesso nosso alvo, Robby, o ladrão. Nós o seguimos até um armazém secreto, onde assumimos encontrar todas as coisas roubadas. A porta deste armazém está presa por uma fechadura eletrônica. Infelizmente nosso espião não tem certeza sobre o PIN que ele viu, quando Robby entrou nele.
+
+### O teclado tem o seguinte layout:
+
+┌───┬───┬───┐
+│ 1 │ 2 │ 3 │
+├───┼───┼───┤
+│ 4 │ 5 │ 6 │
+├───┼───┼───┤
+│ 7 │ 8 │ 9 │
+└───┼───┼───┘
+    │ 0 │
+    └───┘
+### Ele observou o PIN, mas também disse, é possível que cada um dos dígitos que viu possa realmente ser outro dígito adjacente (horizontal ou verticalmente, mas não na diagonal).
+
+### Ele também mencionou, ele sabe este tipo de fechaduras. Você pode inserir uma quantidade ilimitada de PINs errados, eles nunca finalmente bloqueiam o sistema ou soam o alarme. É por isso que podemos experimentar todas as variações possíveis (*).
+
+#### * possível no sentido de: o PIN observado em si e todas as variações considerando os dígitos adjacentes
+
+### Pode nos ajudar a encontrar todas essas variações? Seria bom ter uma função, que retorna uma matriz  de todas as variações para um PIN observado com um comprimento de 1 a 8 dígitos. Poderíamos nomear a função. Mas, por favor, note que todos os PINs, o observado e também os resultados, devem ser strings, por causa do  '0's. Já preparamos alguns casos de teste para você.
+
+### Detetive, estamos contando com você!
