@@ -303,6 +303,8 @@ bananas
 
 ### O teclado tem o seguinte layout:
 
+
+
 ┌───┬───┬───┐
 │ 1 │ 2 │ 3 │
 ├───┼───┼───┤
@@ -312,6 +314,8 @@ bananas
 └───┼───┼───┘
     │ 0 │
     └───┘
+    
+
 ### Ele observou o PIN, mas também disse, é possível que cada um dos dígitos que viu possa realmente ser outro dígito adjacente (horizontal ou verticalmente, mas não na diagonal).
 
 ### Ele também mencionou, ele sabe este tipo de fechaduras. Você pode inserir uma quantidade ilimitada de PINs errados, eles nunca finalmente bloqueiam o sistema ou soam o alarme. É por isso que podemos experimentar todas as variações possíveis (*).
