@@ -303,17 +303,8 @@ bananas
 
 ### O teclado tem o seguinte layout:
 
+![image](https://user-images.githubusercontent.com/90655009/146844915-b5e6e986-485b-43e2-b83e-5d81246ebc4e.png)
 
-
-┌───┬───┬───┐
-│ 1 │ 2 │ 3 │
-├───┼───┼───┤
-│ 4 │ 5 │ 6 │
-├───┼───┼───┤
-│ 7 │ 8 │ 9 │
-└───┼───┼───┘
-    │ 0 │
-    └───┘
     
 
 ### Ele observou o PIN, mas também disse, é possível que cada um dos dígitos que viu possa realmente ser outro dígito adjacente (horizontal ou verticalmente, mas não na diagonal).
