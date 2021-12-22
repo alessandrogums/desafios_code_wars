@@ -316,3 +316,12 @@ bananas
 ### Pode nos ajudar a encontrar todas essas variações? Seria bom ter uma função, que retorna uma matriz  de todas as variações para um PIN observado com um comprimento de 1 a 8 dígitos. Poderíamos nomear a função. Mas, por favor, note que todos os PINs, o observado e também os resultados, devem ser strings, por causa do  '0's. Já preparamos alguns casos de teste para você.
 
 ### Detetive, estamos contando com você!
+
+
+### Desafio número 24:
+### Escreva uma função, que leva um inteiro não negativo (segundos) como entrada e retorna o tempo em um formato legível pelo homem (HH:MM:SS)
+
+### HH = horas, acolchoado a 2 dígitos, intervalo: 00 a 99
+### MM = minutos, acolchoado a 2 dígitos, intervalo: 00 a 59
+### SS = segundos, acolchoado a 2 dígitos, intervalo: 00 a 59
+#### O tempo máximo nunca excede 359999 (99:59:59)
