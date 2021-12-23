@@ -325,3 +325,10 @@ bananas
 ### MM = minutos, acolchoado a 2 dígitos, intervalo: 00 a 59
 ### SS = segundos, acolchoado a 2 dígitos, intervalo: 00 a 59
 #### O tempo máximo nunca excede 359999 (99:59:59)
+
+### Desafio número 25:
+#### Mova a primeira letra de cada palavra para o final dela, em seguida, adicione "ay" ao final da palavra. Deixe marcas de pontuação intocadas.
+
+#### Exemplos
+##### pig_it('Pig latin is cool') # igPay atinlay siay oolcay
+##### pig_it('Hello world !')     # elloHay orldway !
