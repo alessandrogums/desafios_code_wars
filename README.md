@@ -332,3 +332,32 @@ bananas
 #### Exemplos
 ##### pig_it('Pig latin is cool') # igPay atinlay siay oolcay
 ##### pig_it('Hello world !')     # elloHay orldway !
+
+### Desafio número 26:
+### Escreva uma função que, dada uma sequência de texto (possivelmente com pontuação e quebras de linha), retorna uma matriz das palavras mais ocorrerias no top-3, na ordem descendente do número de ocorrências.
+
+### Suposições:
+### Uma palavra é uma sequência de letras (A a Z) contendo opcionalmente um ou mais apóstrofes () em ASCII.'
+### Apóstrotrofes podem aparecer no início, meio ou fim de uma palavra (, , são todos válidos)'abcabc''abc'ab'c
+### Quaisquer outros caracteres (por exemplo, , , ... ) não fazem parte de uma palavra e devem ser tratados como espaço branco.#\/.
+### As partidas devem ser insensíveis, e as palavras no resultado devem ser minúsculas.
+### Os laços podem ser quebrados arbitrariamente.
+### Se um texto contiver menos de três palavras únicas, as palavras top-2 ou top-1 devem ser devolvidas ou uma matriz vazia se um texto não contiver palavras.
+#### Exemplos:
+  #### top_3_words("In a village of La Mancha, the name of which I have no desire to call to
+  #### mind, there lived not long since one of those gentlemen that keep a lance
+  #### in the lance-rack, an old buckler, a lean hack, and a greyhound for
+  #### coursing. An olla of rather more beef than mutton, a salad on most
+  #### nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra
+  #### on Sundays, made away with three-quarters of his income.")
+  #### => ["a", "of", "on"]
+
+#### top_3_words("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb cc cC e e e")
+#### => ["e", "ddd", "aa"]
+
+#### top_3_words("  //wont won't won't")
+####  => ["won't", "wont"]
+### Pontos bônus (não realmente, mas apenas por diversão):
+### Evite criar uma matriz cuja pegada de memória é aproximadamente tão grande quanto o texto de entrada.
+### Evite classificar toda a matriz de palavras únicas.
+
