@@ -10,8 +10,6 @@ def top_3_words(palavra):
         string=''
         i=0
         ref=list(map(lambda y: y=="'",pal))
-        pos_intersc=[]
-        c=0
         if all(ref)==True:
             continue
         else:
@@ -24,37 +22,28 @@ def top_3_words(palavra):
                    
                     pos_ini,pos_fin=i-1,i+2
                     if i==0:
-                        pos_ini,pos_fin=i,i+2
-                        
+                        pos_ini,pos_fin=i,i+2        
                     pedaco=pal[pos_ini:pos_fin]
                     aval=list(map(lambda x:x=="'",pedaco))
                     intersec=[False,True,False]==aval
                     intersec2=[False,True,True]==aval or [False,True]==aval 
                     corresp=all(aval)
-                    
                     if corresp==False and intersec==False and intersec2==False and conf_ini==True:
                         string+=pedaco
                         i+=1
                         conf_ini=False
-                        
                     if intersec:
-                        
-                        pos_intersc.append(i)
                         string+=pedaco[pedaco.index("'"):]
                         i+=1
-                  
                     if  corresp:
                         pass
                     if intersec2:
-                      
                         pedaco=pedaco.replace(pedaco[0],"")
                         string+=pedaco
                         i+=1   
                     
                 i+=1
-        
-            
-               
+                
         lista_filtrada.append(string[:])
     
     obj,maiores={},[]
@@ -85,5 +74,3 @@ def top_3_words(palavra):
             obj.clear()
         
     return maiores
-
-
