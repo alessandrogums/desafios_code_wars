@@ -361,3 +361,21 @@ bananas
 ### Evite criar uma matriz cuja pegada de memória é aproximadamente tão grande quanto o texto de entrada.
 ### Evite classificar toda a matriz de palavras únicas.
 
+### Desafio número 27:
+### complete a função/método (dependendo da linguagem) para retornar / quando seu argumento é uma matriz que tem as mesmas estruturas de aninhamento e o mesmo comprimento correspondente de matrizes aninhadas que a primeira matriz.trueTrue
+
+#### Por exemplo:
+
+#### should return True
+#### same_structure_as([ 1, 1, 1 ], [ 2, 2, 2 ] )
+#### same_structure_as([ 1, [ 1, 1 ] ], [ 2, [ 2, 2 ] ] )
+
+#### should return False 
+#### same_structure_as([ 1, [ 1, 1 ] ], [ [ 2, 2 ], 2 ] )
+#### same_structure_as([ 1, [ 1, 1 ] ], [ [ 2 ], 2 ] )
+
+#### should return True
+#### same_structure_as([ [ [ ], [ ] ] ], [ [ [ ], [ ] ] ] )
+
+#### should return False
+#### same_structure_as([ [ [ ], [ ] ] ], [ [ 1, 1 ] ] )
