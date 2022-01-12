@@ -362,7 +362,7 @@ bananas
 ### Evite classificar toda a matriz de palavras únicas.
 
 ### Desafio número 27:
-### complete a função/método (dependendo da linguagem) para retornar / quando seu argumento é uma matriz que tem as mesmas estruturas de aninhamento e o mesmo comprimento correspondente de matrizes aninhadas que a primeira matriz.trueTrue
+### complete a função/método (dependendo da linguagem) para retornar / quando seu argumento é uma matriz que tem as mesmas estruturas de aninhamento e o mesmo comprimento correspondente de matrizes aninhadas que a primeira matriz.true/ True
 
 #### Por exemplo:
 
