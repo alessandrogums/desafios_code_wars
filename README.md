@@ -379,3 +379,15 @@ bananas
 
 #### should return False
 #### same_structure_as([ [ [ ], [ ] ] ], [ [ 1, 1 ] ] )
+
+### Desafio número 28:
+### A função rgb está incompleta. Complete-o para que a passagem em valores decimais RGB resulte em uma representação hexadecimal sendo devolvida. Os valores decimais válidos para RGB são de 0 a 255. Os valores que saem dessa faixa devem ser arredondados para o valor válido mais próximo.
+
+### Nota: Sua resposta deve ser sempre de 6 caracteres, a taquigrafia com 3 não funcionará aqui.
+
+#### A seguir, exemplos de valores de saída esperados:
+
+#### rgb(255, 255, 255) # returns FFFFFF
+#### rgb(255, 255, 300) # returns FFFFFF
+#### rgb(0,0,0) # returns 000000
+#### rgb(148, 0, 211) # returns 9400D3
