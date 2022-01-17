@@ -391,3 +391,29 @@ bananas
 #### rgb(255, 255, 300) # returns FFFFFF
 #### rgb(0,0,0) # returns 000000
 #### rgb(148, 0, 211) # returns 9400D3
+
+### Desafio número 29:
+### Era uma vez, em um caminho através do velho oeste montanhoso selvagem,...
+### ... um homem foi dado instruções para ir de um ponto para outro. As direções foram "NORTE", "SUL", "OESTE", "LESTE". Claramente "NORTE" e "SUL" são opostos, "OESTE" e "LESTE" também.
+
+### Ir para uma direção e voltar na direção oposta imediatamente é um esforço desnecessário. Uma vez que este é o oeste selvagem, com tempo terrível e pouca água, é importante economizar um pouco de energia, caso contrário você pode morrer de sede!
+
+#### Como atravessei um deserto montanhoso da maneira inteligente.
+As instruções dadas ao homem são, por exemplo, as seguintes (dependendo da linguagem):
+
+### ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+or
+### { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
+or
+[North, South, South, East, West, North, West]
+
+#### Outros exemplos:
+#### Em , a direção está indo para o norte e voltando imediatamente. ["NORTH", "SOUTH", "EAST", "WEST"]"NORTH" + "SOUTH"
+
+#### O caminho se torna , agora e aniquilar uns aos outros, portanto, o resultado final é (zero em Clojure).["EAST", "WEST"]"EAST""WEST"[]
+
+#### Em ["NORTE", "LESTE", "OESTE", "SUL", "OESTE", "OESTE"], "NORTE" e "SUL" não são diretamente opostos, mas se tornam diretamente opostos após a redução de "LESTE" e "OESTE" para que todo o caminho seja redutível para ["OESTE", "OESTE"].
+
+### Tarefa
+### Escreva uma função que levará uma matriz de strings e retorna uma matriz de strings com as direções desnecessárias removidas (W<->E ou S<->N lado a lado).dirReduc
+
