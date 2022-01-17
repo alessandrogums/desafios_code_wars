@@ -399,13 +399,13 @@ bananas
 ### Ir para uma direção e voltar na direção oposta imediatamente é um esforço desnecessário. Uma vez que este é o oeste selvagem, com tempo terrível e pouca água, é importante economizar um pouco de energia, caso contrário você pode morrer de sede!
 
 #### Como atravessei um deserto montanhoso da maneira inteligente.
-As instruções dadas ao homem são, por exemplo, as seguintes (dependendo da linguagem):
+#### As instruções dadas ao homem são, por exemplo, as seguintes (dependendo da linguagem):
 
-### ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+#### ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
 or
-### { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
+#### { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
 or
-[North, South, South, East, West, North, West]
+#### [North, South, South, East, West, North, West]
 
 #### Outros exemplos:
 #### Em , a direção está indo para o norte e voltando imediatamente. ["NORTH", "SOUTH", "EAST", "WEST"]"NORTH" + "SOUTH"
