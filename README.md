@@ -417,3 +417,22 @@ or
 ### Tarefa
 ### Escreva uma função que levará uma matriz de strings e retorna uma matriz de strings com as direções desnecessárias removidas (W<->E ou S<->N lado a lado).dirReduc
 
+### Desafio número 30:
+### Dadas as duas cordas s1 e s2, queremos visualizar o quão diferentes são as duas cordas. Só levaremos em conta as letras minúsculas (a a z). Primeiro vamos contar a frequência de cada letras minúsculas em s1 e s2.
+### s1 = "A aaaa bb c"
+
+### s2 = "& aaa bbb c d"
+
+### s1 has 4 'a', 2 'b', 1 'c'
+
+### s2 has 3 'a', 3 'b', 1 'c', 1 'd'
+
+### Assim, o máximo para 'a' em s1 e s2 é 4 de s1; o máximo para 'b' é 3 de s2. A seguir, não consideraremos cartas quando o máximo de suas ocorrências for menor ou igual a 1.
+
+### Podemos retomar as diferenças entre s1 e s2 na seguinte sequência: onde em posição para string s1 e porque o máximo para é 4. Da mesma forma significa string s2 e porque o máximo para é 3."1:aaaa/2:bbb"11:aaaaaaaaa2:bbbbbbb
+
+### A tarefa é produzir uma sequência na qual cada letras minúsculas de s1 ou s2 apareça tantas vezes quanto o seu máximo se este máximo for estritamente maior que 1; essas letras serão prefixadas pelo número da sequência onde aparecem com seu valor máximo e . Se o máximo estiver no S1, bem como no s2, o prefixo é .:=:
+
+### No resultado, substrings (um substring é, por exemplo, 2:nnnnn ou 1:hhh; contém o prefixo) estarão em ordem decrescente de seu comprimento e quando tiverem o mesmo comprimento classificado em ordem lexicográfica ascendente (letras e dígitos - mais precisamente classificados por ponto de código); os diferentes grupos serão separados por '/'. Veja exemplos e "Testes de Exemplo".
+
+![image](https://user-images.githubusercontent.com/90655009/152017670-fa664f0c-fdd3-497a-a792-f88fde8e39c4.png)
