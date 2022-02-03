@@ -463,12 +463,8 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ### Desafio número 32:
 ### Dado o triângulo de números ímpares consecutivos:
 
-             1
-          3     5
-       7     9    11
-   13    15    17    19
-21    23    25    27    29
-...
+             ![image](https://user-images.githubusercontent.com/90655009/152435224-d2af3a99-8025-4df6-83ca-a4bcbaf0cd78.png)
+
 ### Calcule a soma dos números no nésimo linha deste triângulo (começando no índice 1) por exemplo: (Entrada --> Saída)
 
 #### 1 -->  1
