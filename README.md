@@ -460,3 +460,16 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 
 ### Tarefa: Escrever função k e v serão inteiros positivos. Se retornar.scale(strng, k, v)strng == """"
 
+### Desafio número 32:
+### Dado o triângulo de números ímpares consecutivos:
+
+             1
+          3     5
+       7     9    11
+   13    15    17    19
+21    23    25    27    29
+...
+### Calcule a soma dos números no nésimo linha deste triângulo (começando no índice 1) por exemplo: (Entrada --> Saída)
+
+#### 1 -->  1
+#### 2 --> 3 + 5 = 8
