@@ -1,5 +1,5 @@
 # Desafios Code Wars(TRADUZIDO para pt-br)
-## Desafios do site https://www.codewars.com, utilizando a linguagem python para resolvê-los
+## Desafios do site https://www.codewars.com, utilizando a linguagem python para resolvê-los.É valido ressaltar que os desafios não estão organizados pela dificuldade, ou seja, não necessariamente os últimos são os com dificuldade maior do que os anteriores. 
 ### Desafio número 1:
 ### Conclua o método / função para que ele converta palavras delimitadas por traço / sublinhado em caixa de camelo. A primeira palavra na saída deve ser maiúscula apenas se a palavra original estiver em maiúscula (conhecido como Upper Camel Case, também frequentemente referido como Pascal case).
 
@@ -436,3 +436,27 @@ or
 ### No resultado, substrings (um substring é, por exemplo, 2:nnnnn ou 1:hhh; contém o prefixo) estarão em ordem decrescente de seu comprimento e quando tiverem o mesmo comprimento classificado em ordem lexicográfica ascendente (letras e dígitos - mais precisamente classificados por ponto de código); os diferentes grupos serão separados por '/'. Veja exemplos e "Testes de Exemplo".
 
 ![image](https://user-images.githubusercontent.com/90655009/152017670-fa664f0c-fdd3-497a-a792-f88fde8e39c4.png)
+
+
+### Desafio número 31:
+### Você recebe uma série de linhas, cada substring sendo personagens longos. Por exemplo:nn
+
+#### s = "abcd\nefgh\nijkl\nmnop"
+
+### Estudaremos o dimensionamento "horizontal" e o dimensionamento "vertical" deste quadrado de cordas.
+
+### Um dimensionamento k-horizontal de uma sequência consiste em replicar vezes cada caractere da string (exceto '\n').k
+
+#### Exemplo: dimensionamento 2-horizontal de s: => "aabbccdd\neeffgghh\niijjkkll\nmmnnoopp"
+Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada parte da corda quadrada.v
+
+#### Exemplo: dimensionamento vertical de 2: => "abcd\nabcd\nefgh\nefgh\nijkl\nijkl\nmnop\nmnop\nmnop"
+
+### A função executará um dimensionamento k-horizontal e um dimensionamento v-vertical.scale(strng, k, v)
+#### Example: a = "abcd\nefgh\nijkl\nmnop" scale(a, 2, 3) --> "aabbccdd\naabbccdd\naabbccdd\neeffgghh\neeffgghh\neeffgghh\niijjkkll\niijjkkll\niijjkkll\nmmnnoopp\nmmnnoopp\nmmnnoopp"
+#### Impresso:
+
+![image](https://user-images.githubusercontent.com/90655009/152409179-6bcc43a8-7a8a-4375-a4e4-41da513f9839.png)
+
+### Tarefa: Escrever função k e v serão inteiros positivos. Se retornar.scale(strng, k, v)strng == """"
+
