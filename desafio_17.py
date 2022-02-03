@@ -1,16 +1,15 @@
 import math
 class PaginationHelper:
-# The constructor takes in an array of items and a integer indicating
-# how many items fit within a single page
+
     def __init__(self, collection, items_per_page):
         self.collection=collection
         self.items_per_page=items_per_page
         
-# returns the number of items within the entire collection
+# retorna o número de itens dentro de toda a coleção
     def item_count(self):
         return len(self.collection)
       
-      # returns the number of pages
+      # precisa retornar o número de pág
     def page_count(self):
          return math.ceil(len(self.collection ) / self.items_per_page)
 
@@ -27,8 +26,7 @@ class PaginationHelper:
         else:
             return livro[pagina_indice]
          
-# determines what page an item is on. Zero based indexes.
-# this method should return -1 for item_index values that are out of range
+# determina em que página um item está. Índices baseados em zero.Caso o índice não existe, retornará -1
     def page_index(self,item_index):
         if item_index == 1:
             item_index=2
