@@ -470,3 +470,8 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 
 #### 1 -->  1
 #### 2 --> 3 + 5 = 8
+
+## Desafio número 33:
+### O problema da Torre de Hanói envolve 3 torres. Uma série de anéis que diminuem de tamanho são colocados em uma torre. Todos os anéis devem então ser movidos para outra torre, mas em nenhum momento um anel maior pode ser colocado em um anel menor.
+
+### Sua tarefa: Dado um número de anéis, retorne o número MÍNIMO de movimentos necessários para mover todos os anéis de uma torre para outra.
