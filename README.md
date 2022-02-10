@@ -475,3 +475,16 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ### O problema da Torre de Hanói envolve 3 torres. Uma série de anéis que diminuem de tamanho são colocados em uma torre. Todos os anéis devem então ser movidos para outra torre, mas em nenhum momento um anel maior pode ser colocado em um anel menor.
 
 ### Sua tarefa: Dado um número de anéis, retorne o número MÍNIMO de movimentos necessários para mover todos os anéis de uma torre para outra.
+
+## Desafio número 34:
+
+### Sua tarefa é calcular o número mínimo de movimentos para ganhar o jogo "Towers of Hanoi", com um determinado número de discos.
+
+### O que é "Torres de Hanói"?
+### Towers of Hanoi, é um jogo simples que consiste em três varas, e uma série de discos de diferentes tamanhos que podem deslizar para qualquer vara. O quebra-cabeça começa com os discos em uma pilha limpa em ordem ascendente de tamanho em uma haste, a menor no topo, fazendo assim uma forma cônica.
+
+### O objetivo do quebra-cabeça é mover toda a pilha para outra vara, obedecendo às seguintes regras simples:
+
+### Apenas um disco pode ser movido de cada vez.
+### Cada movimento consiste em pegar o disco superior de uma das pilhas e colocá-lo em cima de outra pilha, ou seja, um disco só pode ser movido se for o disco mais alto de uma pilha.
+### Nenhum disco pode ser colocado em cima de um disco menor.
