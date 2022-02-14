@@ -1,16 +1,16 @@
 
 #Solução Recursiva
 arquivo = 'hanoi.resultado'
-def file_write(text):
+def escrever_arquivo(texto):
   with open(arquivo,'a') as file:
-     file.write(text)
+     file.write(texto)
 
 def hanoi(num,a,b,c):
   if num == 1:
-     file_write(str(a +' indo para ' +c+ '\n'))
+     escrever_arquivo(str(a +' indo para ' +c+ '\n'))
   else:
      hanoi(num-1,a,c,b)
-     file_write(str(a +' indo para ' +c + '\n'))
+     escrever_arquivo(str(a +' indo para ' +c + '\n'))
      hanoi(num-1,b,a,c)
 
 num = int(input('número de hanoi: '))
