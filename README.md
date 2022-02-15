@@ -488,3 +488,25 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ### Apenas um disco pode ser movido de cada vez.
 ### Cada movimento consiste em pegar o disco superior de uma das pilhas e colocá-lo em cima de outra pilha, ou seja, um disco só pode ser movido se for o disco mais alto de uma pilha.
 ### Nenhum disco pode ser colocado em cima de um disco menor.
+
+## Desafio número 35:
+### Uma forteza de um número par é o número de vezes que podemos dividir sucessivamente por 2 até chegarmos a um número ímpar começando com um número par n.
+
+### Por exemplo, se n = 12, então
+
+#### 12 / 2 = 6
+#### 6 / 2 = 3
+#### Então dividimos sucessivamente 2 vezes e chegamos a 3, então a força de 12 é.2
+
+#### Se n = 16, então
+
+#### 16 / 2 = 8
+#### 8 / 2 = 4
+#### 4 / 2 = 2
+#### 2 / 2 = 1
+### dividimos sucessivamente 4 vezes e chegamos a 1, então a força de 16 é 4
+
+### Tarefa
+### Dado um intervalo fechado, retorne o número igual que é o mais forte no intervalo. Se existirem várias soluções, retorne o menor número de pontos.[n, m]
+
+### Observe que os programas devem ser executados dentro do tempo de servidor alocado; uma solução ingênua provavelmente vai estourar o tempo! 
