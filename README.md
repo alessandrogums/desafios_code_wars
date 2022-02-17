@@ -510,3 +510,25 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ### Dado um intervalo fechado, retorne o número igual que é o mais forte no intervalo. Se existirem várias soluções, retorne o menor número de pontos.[n, m]
 
 ### Observe que os programas devem ser executados dentro do tempo de servidor alocado; uma solução ingênua provavelmente vai estourar o tempo! 
+
+##Desafio número 36:
+### Um número primo é um inteiro maior que 1 que só é igualmente divisível por si só e 1.
+
+### Escreva sua própria classe Primes com método de classe que retorna uma matriz dos primeiros números primos n.Primes.first(n)
+
+#### Por exemplo:
+
+#### Primes.first(1)
+#### => [2]
+
+#### Primes.first(2)
+####  => [2, 3]
+
+#### Primes.first(5)
+####  => [2, 3, 5, 7, 11]
+
+#### Primes.first(20).last(5)
+#### => [53, 59, 61, 67, 71]
+##### Nota: Um algoritmo ineficiente vai se esgotar. A memorização pode ajudar.
+
+
