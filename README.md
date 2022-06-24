@@ -415,7 +415,7 @@ or
 #### Em ["NORTE", "LESTE", "OESTE", "SUL", "OESTE", "OESTE"], "NORTE" e "SUL" não são diretamente opostos, mas se tornam diretamente opostos após a redução de "LESTE" e "OESTE" para que todo o caminho seja redutível para ["OESTE", "OESTE"].
 
 ### Tarefa
-### Escreva uma função que levará uma matriz de strings e retorna uma matriz de strings com as direções desnecessárias removidas (W<->E ou S<->N lado a lado).dirReduc
+### Escreva uma função que levará uma matriz de strings e retorna uma matriz de strings com as direções desnecessárias removidas (W<->E ou S<->N lado a lado).
 
 ### Desafio número 30:
 ### Dadas as duas cordas s1 e s2, queremos visualizar o quão diferentes são as duas cordas. Só levaremos em conta as letras minúsculas (a a z). Primeiro vamos contar a frequência de cada letras minúsculas em s1 e s2.
