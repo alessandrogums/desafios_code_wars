@@ -511,7 +511,7 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 
 ### Observe que os programas devem ser executados dentro do tempo de servidor alocado; uma solução ingênua provavelmente vai estourar o tempo! 
 
-##Desafio número 36:
+## Desafio número 36:
 ### Um número primo é um inteiro maior que 1 que só é igualmente divisível por si só e 1.
 
 ### Escreva sua própria classe Primes com método de classe que retorna uma matriz dos primeiros números primos n.Primes.first(n)
@@ -532,3 +532,15 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ##### Nota: Um algoritmo ineficiente vai se esgotar. A memorização pode ajudar.
 
 
+## Desafio número 37:
+### crie uma função que recebe um inteiro positivo e retorna o próximo número maior que pode ser formado reorganizando seus dígitos. Por exemplo:
+
+#### 12 ==> 21
+#### 513 ==> 531
+#### 2017 ==> 2071
+
+### Se os dígitos não puderem ser reorganizados para formar um número maior, retorne -1
+
+#### 9 ==> -1
+#### 111 ==> -1
+#### 531 ==> -1
