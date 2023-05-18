@@ -544,3 +544,31 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 #### 9 ==> -1
 #### 111 ==> -1
 #### 531 ==> -1
+
+## Desafio número 38:
+### Escreva uma função que formate uma duração, dada em alguns segundos, de maneira amigável ao ser humano.
+
+### A função deve aceitar um número inteiro não negativo. Se for zero, apenas retornará "now". Caso contrário, a duração é expressa como uma combinação de years, days, hours, minutes e seconds.
+
+### É muito mais fácil entender com um exemplo:
+
+* For seconds = 62, your function should return 
+    "1 minute and 2 seconds"
+* For seconds = 3662, your function should return
+    "1 hour, 1 minute and 2 seconds"
+### Para os fins deste Kata, um ano é de 365 dias e um dia é de 24 horas.
+
+### Observe que os espaços são importantes.
+
+### Regras detalhadas
+### A expressão resultante é feita de componentes como 4 seconds, 1 year, etc. Em geral, um número inteiro positivo e uma das unidades válidas de tempo, separadas por um espaço. A unidade de tempo é usada no plural se o número inteiro for maior que 1.
+
+### Os componentes são separados por vírgula e espaço (", "). Exceto o último componente, que é separado por " and ", assim como seria escrito em inglês.
+
+### Unidades de tempo mais significativas ocorrerão antes do que uma menos significativa. Portanto, 1 second and 1 year não está correto, mas 1 year and 1 second é.
+
+### Componentes diferentes têm diferentes unidades de vezes. Portanto, não há unidades repetidas como em 5 seconds and 1 second.
+
+### Um componente não aparecerá se seu valor for zero. Daí, 1 minute and 0 seconds não é válido, mas deve ser apenas 1 minute.
+
+### Uma unidade de tempo deve ser usada "tanto quanto possível". Isso significa que a função não deve retornar 61 seconds, mas 1 minute and 1 second em vez disso. Formalmente, a duração especificada por um componente não ### deve ser maior do que qualquer unidade de tempo válida e mais significativa.
