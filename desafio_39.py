@@ -18,12 +18,9 @@ def sum_for_list(lst):
           
             dici_ls[abs(var_arm)]=[var_arm]
         else:
-            print(var_arm)
- 
+          
             for v in fact:
-                print(v)
-                print(dici_ls)
-                
+        
                 tmp=[]
                 if dici_ls.get(v) == None:
                     dici_ls[v] = [var_arm]
@@ -31,10 +28,12 @@ def sum_for_list(lst):
                     tmp=dici_ls[v]
                     tmp.append(var_arm)
                     dici_ls[v]=tmp 
+                    
   dici_sort = sorted(dici_ls.items(), key=lambda item: item[0])
   final_ls=[]
   for k in dici_sort:
       final_ls.append([k[0],sum(k[1])])
+      
   return final_ls 
 
 
