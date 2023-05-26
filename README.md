@@ -572,3 +572,25 @@ Um dimensionamento v-vertical de uma sequência consiste em replicar vezes cada 
 ### Um componente não aparecerá se seu valor for zero. Daí, 1 minute and 0 seconds não é válido, mas deve ser apenas 1 minute.
 
 ### Uma unidade de tempo deve ser usada "tanto quanto possível". Isso significa que a função não deve retornar 61 seconds, mas 1 minute and 1 second em vez disso. Formalmente, a duração especificada por um componente não ### deve ser maior do que qualquer unidade de tempo válida e mais significativa.
+
+
+## Desafio número 39:
+
+### Dada uma matriz de números inteiros positivos ou negativos
+
+ I= [i1,..,in]
+
+### você precisa produzir uma matriz classificada P do formulário
+
+[ [p, sum of all ij of I for which p is a prime factor (p positive) of ij] ...]
+
+### P será classificado aumentando a ordem dos números primos. O resultado final deve ser fornecido como uma sequência em Java, C #, C, C + + e como uma matriz de matrizes em outros idiomas.
+
+### Exemplo:
+I = [12, 15] # result = [[2, 12], [3, 27], [5, 15]]
+[ 2, 3, 5 ] é a lista de todos os fatores principais dos elementos de I, daí o resultado.
+
+### Notas:
+
+#### Pode acontecer que uma soma seja 0 se alguns números forem negativos!
+#### Exemplo: I = [ 15, 30, -45 ] 5 divide 15, 30 e ( -45 ), então 5 aparece no resultado, a soma dos números para os quais 5 é um fator é 0, portanto temos [ 5, 0 ] no resultado, entre outros.
